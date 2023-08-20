@@ -1,0 +1,22 @@
+.cart-container {
+  position: relative;
+
+  .cart-widget-img {
+    height: 45px;
+    margin-left: 10px;
+  }
+
+  .counter {
+    position: absolute;
+    background-color: rgb(186, 186, 60);
+    color: rgb(84, 84, 2);
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -4px;
+    right: -5px;
+  }
+}
