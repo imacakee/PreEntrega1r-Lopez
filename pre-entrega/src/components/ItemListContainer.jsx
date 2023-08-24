@@ -1,7 +1,18 @@
 function ItemListContainer(props) {
+  const alertFn = (message) => {
+    // haces sweet alert
+    alert(message);
+  };
+
   return (
     <div>
-      <h1>{props.greeting}</h1>
+      <button className="say-hi"
+        onClick={() => {
+          alertFn(props.greeting);
+        }}
+      >
+        Saludar
+      </button>
     </div>
   );
 }
