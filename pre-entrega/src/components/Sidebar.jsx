@@ -3,11 +3,11 @@ import CategoryItem from "./CategoryItem";
 
 function Sidebar(props) {
   const categoryList = [
-    "abrigo",
-    "calzado",
-    "pantalones",
-    "remeras",
-    "accesorios",
+    "Abrigo",
+    "Calzado",
+    "Pantalones",
+    "Remeras",
+    "Accesorios",
   ];
 
   return (
